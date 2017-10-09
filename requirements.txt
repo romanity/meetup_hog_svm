@@ -1,4 +1,4 @@
 opencv-python
-Image
-lxml
+jupyter
+matplotlib
 progressbar2
