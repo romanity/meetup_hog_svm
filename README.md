@@ -7,18 +7,15 @@ Please following scripts below.
 ```shell
 cd ~
 git clone https://github.com/romanity/meetup_hog_svm.git
+cd meetup_hog_svm
 ```
-# Virtual Environment Setup (Python2 and PIP Installation Included)
+## Virtual Environment Setup (Python2 and PIP Installation Included)
 ```shell
-./setup_venv
+./install_virtualenv
 source venv/bin/activate
+./install_requirements
 ```
 
-# Install Requirements in VENV
-pip install --upgrade pip
-pip install --upgrade -r requirements.txt
-
-# Run Jupyter Notebook
+## Run Jupyter Notebook
 jupyter notebook
-
 
